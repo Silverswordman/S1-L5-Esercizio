@@ -1,0 +1,88 @@
+/* Your styles here */
+/* body generale */
+body
+
+{text-align: center; color:#393d41;font-family: 'Open Sans', sans-serif;font-size: 1.5rem;line-height: 1.65
+    ;
+}
+h1,h2,h4,h5,h6,dt
+
+{ font-family: 'Montserrat', sans-serif;line-height: 3;color: #25a2c3 ;font-weight: bold;}
+/* header */
+#logo
+{background-color: black;text-align: start;}
+
+#logo img 
+{width: 10%;padding: 2em;}
+
+#corso
+{background-image: url(/images/banner.jpg);background-repeat: no-repeat; background-size:cover;padding-top: 5em;padding-bottom: 8em;
+    background-position-y: top ;margin-bottom: 1em;}
+
+h1 
+{font-size: 1.5em;padding-left:3.5em;padding-right: 3.5em;
+}
+
+header p
+ {padding-left: 4em;padding-right:4em;;font-size: 0.8em;}
+ header p:last-of-type {margin-bottom: 1em;}
+
+header button {margin-top: 1em;background-color: #f04c2f;font-family:'Montserrat', sans-serif;font-weight: bold;color: white;padding:1.5em 2.8em;border-radius: 0.5em;border: none;}
+
+
+/* main */
+
+#computer 
+{background-image:url(/images/notebook.jpg);display: inline-block;width: 400px;height: 400px;background-repeat: repeat;border-radius: 50%;background-position: center;
+margin-top: 2em;margin-right: 2em;}
+dl {font-size: 15px;text-align: left ; display: inline-block;margin-bottom: 2em;}
+
+
+/* chiedere per centrare la lista ? fare una tabella? */
+
+
+#garanzia 
+{background-color: #e22d0e; color: white;padding-top: 3.5em;padding-bottom: 3.5em;margin-top: 3em;margin-bottom: 3em;}
+
+#garanzia h4 
+{color: white;}
+
+#garanzia blockquote 
+{font-style: italic;padding-left: 3.5em;padding-right: 3.5em;padding-bottom: 1em;font-size: 0.8em;}
+
+#garanzia p:first-of-type
+
+{font-size: 13px;}
+
+#garanzia p:last-of-type 
+{font-size: 10px;}
+/* aside */
+.correlati {width: 25%;border: solid 1px #dee1e3;margin-left: 1%;margin-right: 1%;margin-top: 1em;margin-bottom: 1em;padding-bottom: 1em;display: inline-block;;}
+.correlati p {font-size: 16px;padding: 0em 1em 1em 0.5em;}
+.correlati h6 {font-size: 16px;padding-top: 0.5em;}
+
+#img1 
+{background-image: url(/images/foto1.jpg);height: 300px; width:100%;background-repeat: no-repeat;background-size: cover;}
+#img2 
+{background-image: url(/images/foto2.jpg);height: 300px; width:100% ;background-repeat: no-repeat;background-size: cover;}
+#img3
+{background-image: url(/images/foto3.jpg);height: 300px; width:100%;background-repeat: no-repeat;background-size: cover;}
+
+
+
+/* footer */
+
+footer
+{background-color: #25a2c3;color:  #c8e7f0;padding-top: 2em;padding-bottom: 3em; margin-top: 5em;}
+footer h4
+ {color:white;font-size: 1.5em;padding-bottom: 0.1em;}
+ footer i {padding-right: 0.2em;}
+footer ul, footer p
+{font-size: 13px;}
+
+footer a 
+{color: #c8e7f0;}
+footer hr 
+{margin-left: 35%;margin-right: 35%;color: white;margin-top: 1em;margin-bottom: 1em;}
+
+
